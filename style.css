@@ -13,7 +13,6 @@
 .my-container h1{
 	font-size: 72px;
 	text-shadow: 0px 2px 3px #666;
-	
 }
 
 .my-container h2{
@@ -26,16 +25,20 @@
 	text-shadow: 0px 2px 3px black;
 }
 
-.subject-header{
-	padding-left: 95px;
-}
-
 .footer{
-	z-index: -1;
 	width: 100%;
 	height:300px;
 }
 
+.section-title{
+	text-shadow: 0px 2px 3px #666;
+	background-color: #F2F2F2;
+}
+
+.row .col-md-5, .col-md-6{
+	padding-left: 50px;
+	padding-right: 50px;
+}
 
 body{
 	background-color: #F2F2F2;
@@ -57,5 +60,5 @@ td{
 }
 
 td {
-	border: 1px solid black;
+	border: 1px solid gray;
 }
