@@ -6,13 +6,6 @@
 	padding-top: 30px;
 }
 
-
-hr{
-	display: block;
-	width: 500px;
-	margin-top:0px;
-}
-
 .my-container h1{
 	font-size: 80px;
 	font-family: "Josefin Sans", sans-serif;
@@ -24,7 +17,6 @@ hr{
 
 }
 
-
 .my-container h4{
 	color: white;
 	font-family: "Josefin Sans", sans-serif;
@@ -32,49 +24,62 @@ hr{
 	text-align: center;
 }
 
+
+hr{
+	display: block;
+	width: 500px;
+	margin-top:0px;
+}
+
+
 .footer{
 	width: 100%;
 	height:300px;
 }
 
-.section-title{
-	/*text-shadow: 0px 2px 3px #666;*/
-	background-color: #F0F0F0;
-	font-family: "Josefin Sans", sans-serif;
-	padding-left: 42px;
+.row{
+	width:100%;
 }
 
-.row .col-md-5, .col-md-6{
-	padding-left: 0px;
-	padding-right: 42px;
+.row h3{
+	font-family: "Josefin Sans", sans-serif;
+	padding-left:20px;
+	color: black;
+}
+
+.row .col-md-6{
+	/*padding-left: 20px;
+	padding-right: 30px;*/
 }
 
 .row .column-content{
-	/*background-color: gray;*/
-	background: #CDCDCD;
+	background-color: #FFFFFF;
 	border-radius: 25px;
 	padding-top: 20px;
-	padding-left: 20px;
+	padding-left: 20px; /*This affects the text inside the bubble*/
 	padding-right: 20px;
 	padding-bottom: 10px;
-	margin-left:40px;
+
+	width:100%;
+
+	margin-left: 20px; /*This affects the bubble itself*/
+	font-weight: 200;
 }
 
 .row .table-content{
-	/*background-color: gray;
-	background: rgba(112, 112, 112, 0.2);*/
-	padding-top: 20px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	margin-left:40px;
-	/*margin-right: 20px;*/
-	border: 1px solid #CDCDCD;
+	background-color: #404040;
 	border-radius: 25px;
-	background-color: #E8E8E8;
+	padding-top: 5px;
+	padding-left: 20px; /*This affects the location of the table in the bubble*/
+	padding-right: 20px;
+	padding-bottom: 10px;
+	border: 1px solid #CDCDCD;
+	width:100%;
+	margin-left: 20px;
 }
 
 body{
-	background-color: #F0F0F0;
+	background-color: #BEBEBE;
 }
 
 table{
@@ -82,34 +87,28 @@ table{
 	width: 100%;
 	border-radius: 25px;
 	background-color: rgba(112, 112, 112, 0.0);
+	font-style: "Josefin Sans", sans-serif;
 }
 
-tr:nth-child(even){
-	/*background-color:#CDCDCD;*/
-
-	 /*#E8E8E8;*/
-}
-
-tr:nth-child(odd){
-	/*background-color: #CDCDCD;*/
-
-	/*#CDCDCD;*/
-	
-}
-
-th{
-	height: 0px;
-	vertical-align: bottom;
-	/*padding: 5px;*/
-	/*background-color: #F0F0F0;*/
-	border-bottom: 1px solid #CDCDCD;
-
-}
 
 td{
 	padding-left: 10px;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	border-left: 1px solid #CDCDCD;
-	border-bottom: 1px solid #CDCDCD;
+	/*border-bottom: 1px solid #CDCDCD;*/
+	
+	font-weight: 100;
+	color:white;
+	font-size:14px;
+	/*text-align: center;*/
+	letter-spacing: 1.5px;
 }
+
+td a{
+	color:#E0FFFF;
+}
+
+td a:hover{
+	color:#8FD8D8;
+}
+
