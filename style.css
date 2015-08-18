@@ -95,13 +95,16 @@ td{
 	padding-left: 10px;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	/*border-bottom: 1px solid #CDCDCD;*/
+	border-bottom: 1px solid gray;
+
+	/*border-left: 1px solid #CDCDCD;*/
 	
+
 	font-weight: 100;
 	color:white;
 	font-size:14px;
 	/*text-align: center;*/
-	letter-spacing: 1.5px;
+	letter-spacing: 1.7px;
 }
 
 td a{
