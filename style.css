@@ -64,6 +64,7 @@ hr{
 
 	margin-left: 20px; /*This affects the bubble itself*/
 	font-weight: 200;
+	font-size: 15px;
 }
 
 .row .table-content{
@@ -102,7 +103,7 @@ td{
 
 	font-weight: 100;
 	color:white;
-	font-size:14px;
+	font-size:13px;
 	/*text-align: center;*/
 	letter-spacing: 1.7px;
 }
